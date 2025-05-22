@@ -1,0 +1,24 @@
+# fly.toml app configuration file generated for falafel-theory-chatbot
+# See https://fly.io/docs/reference/configuration/ for details
+
+app = "falafel-theory-chatbot"
+primary_region = "sin"
+
+[build]
+
+# Tell Fly’s `flask run` which module to load
+[env]
+  FLASK_APP = "main"
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = "stop"
+  auto_start_machines = true
+  min_machines_running = 0
+  processes = ["app"]
+
+[[vm]]
+  memory = "1gb"
+  cpu_kind = "shared"
+  cpus = 1
