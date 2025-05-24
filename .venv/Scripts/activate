@@ -35,7 +35,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\moham\OneDrive\Desktop\The Singapore Way\TXTs\Github Codes\falafel-theory-chatbot\.venv"
+VIRTUAL_ENV="C:\Users\moham\falafel-theory-chatbot\.venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

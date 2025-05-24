@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\moham\OneDrive\Desktop\The Singapore Way\TXTs\Github Codes\falafel-theory-chatbot\.venv
+set VIRTUAL_ENV=C:\Users\moham\falafel-theory-chatbot\.venv
 
 if not defined PROMPT set PROMPT=$P$G
 

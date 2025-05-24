@@ -1,18 +1,14 @@
-<<<<<<< Updated upstream
-.env.txt
-=======
-# Python virtual environment
+# Python virtual environments
 venv/
 .venv/
 
-# Environment variables
+# Local environment variables (ignored on GitHub)
 .env
 
 # Flask instance files
 instance/
 .flaskenv
 
-# Byte-compiled / cache files
+# Byte-compiled / cache
 __pycache__/
 *.py[cod]
->>>>>>> Stashed changes
